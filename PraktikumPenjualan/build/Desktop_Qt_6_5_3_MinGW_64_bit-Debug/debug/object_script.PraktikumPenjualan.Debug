@@ -1,0 +1,17 @@
+debug/formbarang.o
+debug/forminvd.o
+debug/forminvoice.o
+debug/formkategori.o
+debug/formkota.o
+debug/formpelanggan.o
+debug/formsubkategori.o
+debug/formutama.o
+debug/main.o
+debug/moc_formbarang.o
+debug/moc_forminvd.o
+debug/moc_forminvoice.o
+debug/moc_formkategori.o
+debug/moc_formkota.o
+debug/moc_formpelanggan.o
+debug/moc_formsubkategori.o
+debug/moc_formutama.o

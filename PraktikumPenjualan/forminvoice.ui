@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormInvoice</class>
+ <widget class="QWidget" name="FormInvoice">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1077</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>510</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>510</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="formGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>391</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="idInvoiceLabel">
+      <property name="text">
+       <string>Id invoice</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="idInvoiceLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="tanggalLabel">
+      <property name="text">
+       <string>Tanggal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDateEdit" name="tanggalDateEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="jumlahLabel">
+      <property name="text">
+       <string>Jumlah</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="jumlahLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="ongkirLabel">
+      <property name="text">
+       <string>Ongkir</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="ongkirLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="totalLabel">
+      <property name="text">
+       <string>Total</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="totalLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="satusLabel">
+      <property name="text">
+       <string>Satus</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="satusLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="alamatLabel">
+      <property name="text">
+       <string>Alamat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="alamatLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="kotaLabel">
+      <property name="text">
+       <string>Kota</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="kotaLineEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="kodePosLabel">
+      <property name="text">
+       <string>Kode Pos</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="kodePosLineEdit"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="teleponLabel">
+      <property name="text">
+       <string>Telepon</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="teleponLineEdit"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="tarifLabel">
+      <property name="text">
+       <string>Tarif</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="tarifLineEdit"/>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="jumlahBeratLabel">
+      <property name="text">
+       <string>Jumlah berat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLineEdit" name="jumlahBeratLineEdit"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="namaPenerimaLabel">
+      <property name="text">
+       <string>Nama penerima</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="namaPenerimaLineEdit"/>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="idplgLabel">
+      <property name="text">
+       <string>idplg</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QLineEdit" name="idplgLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>510</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableInvoice">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>601</width>
+     <height>351</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

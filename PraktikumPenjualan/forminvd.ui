@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormInvd</class>
+ <widget class="QWidget" name="FormInvd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="formGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>381</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="idDetailLabel">
+      <property name="text">
+       <string>Id detail</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="idDetailLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="namaBarangLabel">
+      <property name="text">
+       <string>Nama barang</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="namaBarangLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="satuanLabel">
+      <property name="text">
+       <string>Satuan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="satuanLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="hargaLabel">
+      <property name="text">
+       <string>Harga</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="hargaLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="qtyLabel">
+      <property name="text">
+       <string>Qty</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="qtyLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="jumlahLabel">
+      <property name="text">
+       <string>Jumlah</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="jumlahLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="beratLabel">
+      <property name="text">
+       <string>Berat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="beratLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="jumlahBeratLabel">
+      <property name="text">
+       <string>Jumlah berat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="jumlahBeratLineEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="idInvoiceLabel">
+      <property name="text">
+       <string>Id invoice</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="idInvoiceLineEdit"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="idBarangLabel">
+      <property name="text">
+       <string>Id barang</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="idBarangLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>400</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>400</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>400</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableInvd">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>461</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

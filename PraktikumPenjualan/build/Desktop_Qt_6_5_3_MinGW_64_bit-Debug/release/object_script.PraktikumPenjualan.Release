@@ -1,0 +1,17 @@
+release/formbarang.o
+release/forminvd.o
+release/forminvoice.o
+release/formkategori.o
+release/formkota.o
+release/formpelanggan.o
+release/formsubkategori.o
+release/formutama.o
+release/main.o
+release/moc_formbarang.o
+release/moc_forminvd.o
+release/moc_forminvoice.o
+release/moc_formkategori.o
+release/moc_formkota.o
+release/moc_formpelanggan.o
+release/moc_formsubkategori.o
+release/moc_formutama.o
